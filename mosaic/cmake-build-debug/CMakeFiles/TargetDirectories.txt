@@ -1,0 +1,14 @@
+/Users/normadi/Downloads/mosaic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/CMakeFiles/Mosaicpp.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/doc/CMakeFiles/rebuild_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/doc/CMakeFiles/edit_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/doc/CMakeFiles/doc.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/CMakeFiles/rebuild_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/CMakeFiles/edit_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/CMakeFiles/Mosaic_lib.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/src/tile_generator/CMakeFiles/rebuild_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/src/tile_generator/CMakeFiles/edit_cache.dir
+/Users/normadi/Downloads/mosaic/cmake-build-debug/src/tile_generator/CMakeFiles/Tilegen_lib.dir

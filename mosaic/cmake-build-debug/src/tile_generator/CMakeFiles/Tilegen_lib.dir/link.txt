@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libTilegen_lib.a  CMakeFiles/Tilegen_lib.dir/tilegen.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libTilegen_lib.a

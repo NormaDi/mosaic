@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Mosaic_lib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\mosaic\;CMake Files\src\tile_generator\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\doc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Mosaic_lib">
+				<Option output="/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/libMosaic_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCERES_FOUND"/>
+					<Add directory="/Users/normadi/Downloads/mosaic/src"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 Mosaic_lib"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Mosaic_lib/fast">
+				<Option output="/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/libMosaic_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCERES_FOUND"/>
+					<Add directory="/Users/normadi/Downloads/mosaic/src"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 Mosaic_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/normadi/Downloads/mosaic/cmake-build-debug/src/mosaic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/normadi/Downloads/mosaic/src/mosaic/mosaic.cpp">
+			<Option target="Mosaic_lib"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/src/mosaic/mosaic.h">
+			<Option target="Mosaic_lib"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/src/mosaic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\mosaic\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/src/tile_generator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tile_generator\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/cmake/build_prefix.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="/Users/normadi/Downloads/mosaic/doc/doxyfile.in">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
