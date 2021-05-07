@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libMosaic_lib.a  CMakeFiles/Mosaic_lib.dir/mosaic.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libMosaic_lib.a
